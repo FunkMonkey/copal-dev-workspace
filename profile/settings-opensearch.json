@@ -1,0 +1,15 @@
+{
+	"sources": [
+		{
+			"name": "google",
+			"src": "./opensearch/google.xml",
+			"type": "file"
+		},
+		{
+			"name": "wikipedia",
+			"src": "./opensearch/wikipedia.xml",
+			"type": "file"
+		}
+	],
+	"commands": []
+}

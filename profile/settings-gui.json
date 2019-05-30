@@ -1,0 +1,10 @@
+{
+	"debug": true,
+	"devTools": false,
+	"hideOnBlur": false,
+
+	"browserWindowOptions": {
+		"always-on-top": false
+	}
+	
+}

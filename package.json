@@ -1,0 +1,29 @@
+{
+  "name": "@copal/dev-workspace",
+  "version": "0.1.0",
+  "license": "private",
+  "main": "no/way",
+
+  "private": true,
+
+  "scripts": {
+
+    "build": "gulp build",
+    "build:utils": "gulp build:utils",
+    "build:copal": "gulp build:copal",
+    "build:copal-launcher": "gulp build:copal-launcher",
+
+    "watch:build": "gulp watch:build",
+    "watch:build:utils": "gulp watch:build:utils",
+    "watch:build:copal": "gulp watch:build:copal",
+    "watch:build:copal-launcher": "gulp watch:build:copal-launcher",
+
+    "start:copal-launcher": "cd ./node_modules/@copal/launcher && npm start"
+  },
+
+  "workspaces": ["packages/@copal/*", "packages/*"],
+
+  "dependencies": {
+    "gulp": "4.0.0"
+  }
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "name": "more commands",
+    "description": "Shows a list of available commands",
+
+    "initialData": {
+      "sometest": "ABC"
+    },
+
+    "preferredInputs": [],
+    "preferredOutputs": [],
+
+    "streams": {
+      "input": ["CoPal.getCommandInfos({ test: 34 })", ">output"],
+      "listitem-execute": ["CoPal.executeCommand"]
+    }
+  },
+
+  {
+    "name": "extended commands",
+    "extends": "more commands",
+    "initialData": {
+      "queryString": "Just some test"
+    }
+  },
+
+  {
+    "name": "google",
+    "extends": "opensearch",
+
+    "initialData": {
+      "source": "google"
+    }
+  },
+
+  {
+    "name": "wiki",
+    "extends": "opensearch",
+
+    "initialData": {
+      "source": "wikipedia"
+    }
+  },
+
+  {
+    "name": "wiki-selma",
+    "extends": "wiki",
+
+    "initialData": {
+      "queryString": "selma"
+    }
+  }
+]
