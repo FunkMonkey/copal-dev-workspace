@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "packages\\@copal\\core"
+		},
+		{
+			"path": "packages\\@copal\\launcher"
+		},
+		{
+			"path": "profile"
+		},
+		{
+			"path": "packages\\reactive-commands"
+		},
+		{
+			"path": "packages\\reactive-graph"
+		},
+		{
+			"path": "packages\\reactive-plugin-system"
+		},
+		{
+			"path": "packages\\reactive-react-component"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.editorconfig": true,
+			"**/.eslintrc.yaml": true,
+			"**/.git*": true,
+			"**/.npm*": true,
+			"**/build": true,
+			"**/gulpfile.js": true,
+			"**/node_modules": true,
+			"**/yarn.lock": true
+		}
+	}
+}
