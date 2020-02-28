@@ -1,35 +1,48 @@
 {
 	"folders": [
 		{
+			"name": "core",
 			"path": "packages\\@copal\\core"
 		},
 		{
+			"name": "launcher",
 			"path": "packages\\@copal\\launcher"
 		},
 		{
+			"name": "profile",
 			"path": "profile"
 		},
 		{
+			"name": "reactive-commands",
 			"path": "packages\\reactive-commands"
 		},
 		{
-			"path": "packages\\reactive-graph"
-		},
-		{
+			"name": "reactive-plugin-system",
 			"path": "packages\\reactive-plugin-system"
 		},
 		{
+			"name": "reactive-graph",
+			"path": "packages\\reactive-graph"
+		},
+		{
+			"name": "reactive-react-component",
 			"path": "packages\\reactive-react-component"
+		},
+		{
+			"name": "eslint-config-funkmonkey",
+			"path": "packages\\eslint-config-funkmonkey"
+		},
+		{
+			"name": "opensearch",
+			"path": "packages\\@copal\\opensearch"
 		}
 	],
 	"settings": {
 		"files.exclude": {
 			"**/.editorconfig": true,
-			"**/.eslintrc.yaml": true,
 			"**/.git*": true,
 			"**/.npm*": true,
 			"**/build": true,
-			"**/gulpfile.js": true,
 			"**/node_modules": true,
 			"**/yarn.lock": true
 		}
